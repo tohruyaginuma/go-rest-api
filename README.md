@@ -15,3 +15,9 @@ GO_ENV=dev go run migrate/migrate.go
 ```bash
 docker exec -it go-rest-api-dev-postgres-1 psql -U udemy -d udemy
 ```
+
+## Start develop
+
+```bash
+GO_ENV=dev go run .
+```
